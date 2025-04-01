@@ -47,12 +47,21 @@ button {
     cursor: pointer;
 }
 .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .card {
     transition: transform 0.3s ease-in-out;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: auto;
 }
 
 .card:hover {

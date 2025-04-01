@@ -3,7 +3,7 @@ let cart = [];
 const products = [
     { id: 1, name: "Wireless Earbuds", price: 29.99, image: "assests/Wireless Earbuds.jpeg" },
     { id: 2, name: "Smartphone", price: 499.99, image: "assests/Smart phone.jpeg" },
-    { id: 3, name: "Laptop", price: 999.99, image: "assests/Laptop.jpeg" },
+    { id: 3, name: "Laptop", price: 999.99, image: "assests/Laptop.jpg" },
     { id: 4, name: "Gaming Console", price: 299.99, image: "assests/Gaming Console.jpeg" }
 ];
 

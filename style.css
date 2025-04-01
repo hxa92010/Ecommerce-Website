@@ -10,6 +10,13 @@ header {
     color: white;
     padding: 15px;
 }
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 nav ul {
     list-style: none;
@@ -46,22 +53,17 @@ button {
     padding: 10px;
     cursor: pointer;
 }
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .card {
     transition: transform 0.3s ease-in-out;
 }
 .card img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+    width: 150px;  /* Set fixed width */
+    height: 150px; /* Set fixed height */
+    object-fit: cover; /* Ensures image fills the box without distortion */
+    display: block;
     margin: auto;
+    border-radius: 5px; /* Optional: slight rounded edges */
+    background-color: #f8f8f8;
 }
 
 .card:hover {

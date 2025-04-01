@@ -17,7 +17,6 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -53,6 +52,8 @@ button {
     padding: 10px;
     cursor: pointer;
 }
+
+
 .card {
     transition: transform 0.3s ease-in-out;
 }

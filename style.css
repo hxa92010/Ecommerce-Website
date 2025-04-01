@@ -58,10 +58,12 @@ button {
     transition: transform 0.3s ease-in-out;
 }
 .card img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+     width: 120px;  
+    height: 120px; 
+    object-fit: cover;
+    display: block;
     margin: auto;
+    border-radius: 10px;
 }
 
 .card:hover {
